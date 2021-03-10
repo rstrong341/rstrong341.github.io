@@ -8,10 +8,9 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Navigation Page</title>
+  <title>Simple Sidebar - Start Bootstrap Template</title>
 
   <!-- Bootstrap core CSS -->
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -21,8 +20,6 @@
 </head>
 
 <body>
-
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,20 +52,38 @@
   </nav>
 
 
-  <main class="container">
+<div class="container">
+
+
+  
+    <!--Normally these medium columns go full wide on small screen sizes-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">
+            <h1>Comparisons</h1>
+            <hr class="rounded">
+            <div class="row">
+                
+              <div class="col-sm">
+                <img id="float" src="C:\Users\rstro\OneDrive\Desktop\Coding Projects\Web-Design-Challenge\images\Lat.png" alt="Latitude">
+              </div>
+              <div class="col-sm">
+                <img id="float" src="C:\Users\rstro\OneDrive\Desktop\Coding Projects\Web-Design-Challenge\images\wind.png" alt="Latitude">
+              </div>
+              <div class="col-sm">
+                <img id="float" src="C:\Users\rstro\OneDrive\Desktop\Coding Projects\Web-Design-Challenge\images\humidity.png" alt="Latitude">
+              </div>
+              <div class="col-sm">
+                <img id="float" src="C:\Users\rstro\OneDrive\Desktop\Coding Projects\Web-Design-Challenge\images\cloudiness.png" alt="Latitude">
+              </div>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+
     
-  <div id="box">
-    <h1>Weather Project</h1>
-    <hr class="rounded">
-
-    <p>The purpose of this project it to analyze the effects latitude has on different aspects of weather. The four elements that I am comparing are wind speed, max temperature, humidity and cloudiness.  I', hoping to be able to draw conclusions about any given city's weather simply by knowing the coordinates of the city.  Ultimatly the goal of my project is to create a algorithm that can help me determine the ideal loaction for vacation!</p>
-    <img id="float" src="C:\Users\rstro\OneDrive\Desktop\weather.jpg" alt="Latitude" width="400" height="250">
-  </div>
-</main>
-
-
-
-
 
 
 </body>
